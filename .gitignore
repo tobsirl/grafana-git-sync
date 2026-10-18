@@ -1,1 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+tfplan
+
+# Secrets
+*.pem
 .env

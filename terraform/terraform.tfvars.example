@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (git-ignored) and fill in.
+# The service account token goes in an env var, not here:
+#   export TF_VAR_grafana_service_account_token="glsa_..."
+
+github_app_id               = "<APP_ID>"
+github_app_installation_id  = "<INSTALLATION_ID>"
+github_app_private_key_path = "~/.secrets/<your-app>.private-key.pem"
