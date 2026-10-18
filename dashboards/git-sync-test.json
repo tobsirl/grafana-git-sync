@@ -63,7 +63,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "Random Walk",
+          "title": "Random Walk (edited in Git)",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -206,9 +206,7 @@
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
                 "reduceOptions": {
-                  "calcs": [
-                    "lastNotNull"
-                  ],
+                  "calcs": ["lastNotNull"],
                   "fields": "",
                   "values": false
                 },
@@ -278,10 +276,7 @@
       }
     },
     "preload": false,
-    "tags": [
-      "git-sync",
-      "test"
-    ],
+    "tags": ["git-sync", "test"],
     "timeSettings": {
       "autoRefresh": "1m",
       "autoRefreshIntervals": [
@@ -302,7 +297,7 @@
       "timezone": "browser",
       "to": "now"
     },
-    "title": "Git Sync Test",
+    "title": "Git Sync Test (from VS Code)",
     "variables": []
   }
 }
